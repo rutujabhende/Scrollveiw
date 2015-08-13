@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/text_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="COURSE"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_below="@id/text_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </Spinner>
+<ListView
+    android:id="@+id/list_veiw"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:padding="10dp"
+    android:entries="@array/location"
+    android:layout_below="@id/spinner"
+    >
+
+</ListView>
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_veiw"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Order"/>
+
+
+  <!--  <Button
+        android:id="@+id/list_hashmap_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="LISTHASHMAP"
+        android:layout_below="@id/order"/>
+-->
+    <Button
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="ScrollVeiw"
+        android:layout_below="@id/order"/>
+
+
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:orientation="vertical"
+    android:background="@color/secondary_text_default_material_dark"
+   >
+    <EditText
+        android:id="@+id/drawer_edit_text"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+       android:layout_gravity="right"/>
+    <ListView
+        android:id="@+id/drawer_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        ></ListView>
+
+</LinearLayout>
+
+</android.support.v4.widget.DrawerLayout><!-- From: file:/C:/Users/Rutuja/AndroidStudioProjects/menu/app/src/main/res/layout/listveiw.xml -->

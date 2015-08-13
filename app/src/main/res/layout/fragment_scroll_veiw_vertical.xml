@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rutuja.image_circle.ScrollVeiwVertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/fragmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Msg"
+        android:layout_gravity="top|center"/>
+    <ScrollView
+        android:id="@+id/scroll_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+    <LinearLayout
+        android:id="@+id/verticalcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/verticalTopText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verticalscroll"
+            android:textSize="30dp"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:src="@drawable/nature"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/verticalscroll"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:src="@drawable/bird"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:src="@drawable/cute"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:src="@drawable/images"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/verticalscroll"
+            android:textSize="30dp"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:src="@drawable/sunflower"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:src="@drawable/tiger"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:src="@drawable/tree"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.rutuja.image_circle/com.example.rutuja.image_circle.Image_circle">
+        <item android:id="@+id/action_settings" android:title="@string/action_settings"
+            android:orderInCategory="100" app:showAsAction="never" />
+
+        <item android:id="@+id/alarm_icon" android:title="@string/action_settings"
+            android:orderInCategory="100" app:showAsAction="always"
+            android:icon="@drawable/ic_alarm_on_white_24dp"
+            />
+    </menu>
+
+
+</menu><!-- From: file:/C:/Users/Rutuja/AndroidStudioProjects/menu/app/src/main/res/menu/menu_image_circle.xml -->

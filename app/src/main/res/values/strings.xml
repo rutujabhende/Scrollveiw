@@ -1,0 +1,81 @@
+<resources>
+    <string-array name="location">
+        <item>amravati</item>
+        <item>yavatmal</item>
+        <item>mumbai</item>
+        <item>vellore</item>
+        <item>chennai</item>
+        <item>banglore</item>
+        <item>shimla</item>
+        <item>vishakhapatnam</item>
+        <item>hyderabad</item>
+        <item>warangal</item>
+
+    </string-array>
+
+    <string-array name="number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+    <string-array name="alphanumeric">
+        <item>1a</item>
+        <item>2b</item>
+        <item>3c</item>
+        <item>4b</item>
+        <item>5d</item>
+        <item>6e</item>
+        <item>7f</item>
+        <item>8g</item>
+        <item>9h</item>
+        <item>10i</item>
+    </string-array>
+
+    <integer-array name="initialarray">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+
+    </integer-array>
+
+    <string-array name="array_menu">
+        <item>Starter</item>
+        <item>Main Course</item>
+        <item>Desserts</item>
+
+    </string-array>
+
+    <string name="app_name">Image_Circle</string>
+
+    <string name="clockwise">CLOCKWISE</string>
+    <string name="anticlockwise">ANTICLOCKWISE</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_hash_map">ListHashMap</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_scroll_veiw_vertical">ScrollVeiwVertical</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="verticalscroll">Vertical Scroll</string>
+    <string name="title_activity_scroll">scroll</string>
+    <string name="title_activity_scroll_view">ScrollViewActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
